@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QwO-B0-lqI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Get View Controller-->
+        <scene sceneID="Qzz-cO-v5r">
+            <objects>
+                <viewController id="BdP-ww-1tM" customClass="GetViewController" customModule="ZuberPhotos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xZY-bj-AHR"/>
+                        <viewControllerLayoutGuide type="bottom" id="bCN-e1-Neb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="trN-OA-wNw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="If0-Hk-c76">
+                        <barButtonItem key="rightBarButtonItem" title="选择图片" id="MDk-Db-Z9H">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="push" identifier="viewPhotos" id="fa5-oq-l3t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qUF-oK-fNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="915" y="680"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ZuberPhotos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LgD-3u-VxT">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZId-tz-CXz">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3eY-kD-77d">
+                                        <rect key="frame" x="0.0" y="64" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z40-35-Hgp">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="取消" id="mYi-yF-fC5">
+                                        <connections>
+                                            <action selector="cancelClick:" destination="BYZ-38-t0r" id="OYH-On-TNc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="kaD-TZ-D88"/>
+                                    <barButtonItem title="确定" id="68F-jq-bQm">
+                                        <connections>
+                                            <action selector="confirmClick:" destination="BYZ-38-t0r" id="zqi-1a-y9y"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LgD-3u-VxT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="1ls-on-f1y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z40-35-Hgp" secondAttribute="bottom" id="2ge-fc-lbB"/>
+                            <constraint firstItem="LgD-3u-VxT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6x2-h2-GDs"/>
+                            <constraint firstItem="LgD-3u-VxT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IyH-tx-HvV"/>
+                            <constraint firstItem="Z40-35-Hgp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OsS-hM-pUp"/>
+                            <constraint firstAttribute="trailing" secondItem="Z40-35-Hgp" secondAttribute="trailing" id="ZAv-ny-bnZ"/>
+                            <constraint firstAttribute="trailing" secondItem="LgD-3u-VxT" secondAttribute="trailing" id="b4y-r1-axh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LgD-3u-VxT" secondAttribute="bottom" id="wlZ-RK-zBA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1ls-on-f1y"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="bda-Gv-Ro3"/>
+                    <connections>
+                        <outlet property="cancelBtnItem" destination="mYi-yF-fC5" id="ayo-qQ-lmU"/>
+                        <outlet property="collectionView" destination="LgD-3u-VxT" id="7gt-NC-lNT"/>
+                        <outlet property="confirmBtnItem" destination="68F-jq-bQm" id="X69-SQ-Vjm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1606" y="680"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EBr-ym-dtf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QwO-B0-lqI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4uV-k8-bux">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BdP-ww-1tM" kind="relationship" relationship="rootViewController" id="JSf-JN-eyu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTh-Vc-Zvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246" y="680"/>
+        </scene>
+    </scenes>
+</document>

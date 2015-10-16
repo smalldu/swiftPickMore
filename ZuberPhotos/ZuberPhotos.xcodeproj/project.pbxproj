@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BFED691BD166A5005E6209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED681BD166A5005E6209 /* AppDelegate.swift */; };
+		20BFED6B1BD166A5005E6209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED6A1BD166A5005E6209 /* ViewController.swift */; };
+		20BFED6E1BD166A5005E6209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BFED6C1BD166A5005E6209 /* Main.storyboard */; };
+		20BFED701BD166A5005E6209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BFED6F1BD166A5005E6209 /* Assets.xcassets */; };
+		20BFED731BD166A5005E6209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BFED711BD166A5005E6209 /* LaunchScreen.storyboard */; };
+		20BFED7E1BD166A5005E6209 /* ZuberPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED7D1BD166A5005E6209 /* ZuberPhotosTests.swift */; };
+		20BFED891BD166A5005E6209 /* ZuberPhotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED881BD166A5005E6209 /* ZuberPhotosUITests.swift */; };
+		20BFED981BD1670D005E6209 /* ZuberImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED961BD1670D005E6209 /* ZuberImage.swift */; settings = {ASSET_TAGS = (); }; };
+		20BFED991BD1670D005E6209 /* ZuberImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED971BD1670D005E6209 /* ZuberImageCell.swift */; settings = {ASSET_TAGS = (); }; };
+		20BFED9D1BD1675B005E6209 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED9A1BD1675B005E6209 /* Constant.swift */; settings = {ASSET_TAGS = (); }; };
+		20BFED9E1BD1675B005E6209 /* GetImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED9B1BD1675B005E6209 /* GetImageCell.swift */; settings = {ASSET_TAGS = (); }; };
+		20BFED9F1BD1675B005E6209 /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFED9C1BD1675B005E6209 /* GetViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20BFED7A1BD166A5005E6209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20BFED5D1BD166A5005E6209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BFED641BD166A5005E6209;
+			remoteInfo = ZuberPhotos;
+		};
+		20BFED851BD166A5005E6209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20BFED5D1BD166A5005E6209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BFED641BD166A5005E6209;
+			remoteInfo = ZuberPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20BFED651BD166A5005E6209 /* ZuberPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuberPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BFED681BD166A5005E6209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20BFED6A1BD166A5005E6209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20BFED6D1BD166A5005E6209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20BFED6F1BD166A5005E6209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20BFED721BD166A5005E6209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20BFED741BD166A5005E6209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BFED791BD166A5005E6209 /* ZuberPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuberPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BFED7D1BD166A5005E6209 /* ZuberPhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuberPhotosTests.swift; sourceTree = "<group>"; };
+		20BFED7F1BD166A5005E6209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BFED841BD166A5005E6209 /* ZuberPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuberPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BFED881BD166A5005E6209 /* ZuberPhotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuberPhotosUITests.swift; sourceTree = "<group>"; };
+		20BFED8A1BD166A5005E6209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BFED961BD1670D005E6209 /* ZuberImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZuberImage.swift; sourceTree = "<group>"; };
+		20BFED971BD1670D005E6209 /* ZuberImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZuberImageCell.swift; sourceTree = "<group>"; };
+		20BFED9A1BD1675B005E6209 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		20BFED9B1BD1675B005E6209 /* GetImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetImageCell.swift; sourceTree = "<group>"; };
+		20BFED9C1BD1675B005E6209 /* GetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20BFED621BD166A5005E6209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BFED761BD166A5005E6209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BFED811BD166A5005E6209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20BFED5C1BD166A5005E6209 = {
+			isa = PBXGroup;
+			children = (
+				20BFED671BD166A5005E6209 /* ZuberPhotos */,
+				20BFED7C1BD166A5005E6209 /* ZuberPhotosTests */,
+				20BFED871BD166A5005E6209 /* ZuberPhotosUITests */,
+				20BFED661BD166A5005E6209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20BFED661BD166A5005E6209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20BFED651BD166A5005E6209 /* ZuberPhotos.app */,
+				20BFED791BD166A5005E6209 /* ZuberPhotosTests.xctest */,
+				20BFED841BD166A5005E6209 /* ZuberPhotosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20BFED671BD166A5005E6209 /* ZuberPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				20BFED9A1BD1675B005E6209 /* Constant.swift */,
+				20BFED9B1BD1675B005E6209 /* GetImageCell.swift */,
+				20BFED9C1BD1675B005E6209 /* GetViewController.swift */,
+				20BFED961BD1670D005E6209 /* ZuberImage.swift */,
+				20BFED971BD1670D005E6209 /* ZuberImageCell.swift */,
+				20BFED681BD166A5005E6209 /* AppDelegate.swift */,
+				20BFED6A1BD166A5005E6209 /* ViewController.swift */,
+				20BFED6C1BD166A5005E6209 /* Main.storyboard */,
+				20BFED6F1BD166A5005E6209 /* Assets.xcassets */,
+				20BFED711BD166A5005E6209 /* LaunchScreen.storyboard */,
+				20BFED741BD166A5005E6209 /* Info.plist */,
+			);
+			path = ZuberPhotos;
+			sourceTree = "<group>";
+		};
+		20BFED7C1BD166A5005E6209 /* ZuberPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				20BFED7D1BD166A5005E6209 /* ZuberPhotosTests.swift */,
+				20BFED7F1BD166A5005E6209 /* Info.plist */,
+			);
+			path = ZuberPhotosTests;
+			sourceTree = "<group>";
+		};
+		20BFED871BD166A5005E6209 /* ZuberPhotosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20BFED881BD166A5005E6209 /* ZuberPhotosUITests.swift */,
+				20BFED8A1BD166A5005E6209 /* Info.plist */,
+			);
+			path = ZuberPhotosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20BFED641BD166A5005E6209 /* ZuberPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BFED8D1BD166A5005E6209 /* Build configuration list for PBXNativeTarget "ZuberPhotos" */;
+			buildPhases = (
+				20BFED611BD166A5005E6209 /* Sources */,
+				20BFED621BD166A5005E6209 /* Frameworks */,
+				20BFED631BD166A5005E6209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZuberPhotos;
+			productName = ZuberPhotos;
+			productReference = 20BFED651BD166A5005E6209 /* ZuberPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20BFED781BD166A5005E6209 /* ZuberPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BFED901BD166A5005E6209 /* Build configuration list for PBXNativeTarget "ZuberPhotosTests" */;
+			buildPhases = (
+				20BFED751BD166A5005E6209 /* Sources */,
+				20BFED761BD166A5005E6209 /* Frameworks */,
+				20BFED771BD166A5005E6209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BFED7B1BD166A5005E6209 /* PBXTargetDependency */,
+			);
+			name = ZuberPhotosTests;
+			productName = ZuberPhotosTests;
+			productReference = 20BFED791BD166A5005E6209 /* ZuberPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20BFED831BD166A5005E6209 /* ZuberPhotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BFED931BD166A5005E6209 /* Build configuration list for PBXNativeTarget "ZuberPhotosUITests" */;
+			buildPhases = (
+				20BFED801BD166A5005E6209 /* Sources */,
+				20BFED811BD166A5005E6209 /* Frameworks */,
+				20BFED821BD166A5005E6209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BFED861BD166A5005E6209 /* PBXTargetDependency */,
+			);
+			name = ZuberPhotosUITests;
+			productName = ZuberPhotosUITests;
+			productReference = 20BFED841BD166A5005E6209 /* ZuberPhotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20BFED5D1BD166A5005E6209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = duzhe;
+				TargetAttributes = {
+					20BFED641BD166A5005E6209 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZNRTL68XQ3;
+					};
+					20BFED781BD166A5005E6209 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZNRTL68XQ3;
+						TestTargetID = 20BFED641BD166A5005E6209;
+					};
+					20BFED831BD166A5005E6209 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZNRTL68XQ3;
+						TestTargetID = 20BFED641BD166A5005E6209;
+					};
+				};
+			};
+			buildConfigurationList = 20BFED601BD166A5005E6209 /* Build configuration list for PBXProject "ZuberPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20BFED5C1BD166A5005E6209;
+			productRefGroup = 20BFED661BD166A5005E6209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BFED641BD166A5005E6209 /* ZuberPhotos */,
+				20BFED781BD166A5005E6209 /* ZuberPhotosTests */,
+				20BFED831BD166A5005E6209 /* ZuberPhotosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20BFED631BD166A5005E6209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BFED731BD166A5005E6209 /* LaunchScreen.storyboard in Resources */,
+				20BFED701BD166A5005E6209 /* Assets.xcassets in Resources */,
+				20BFED6E1BD166A5005E6209 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BFED771BD166A5005E6209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BFED821BD166A5005E6209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BFED611BD166A5005E6209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BFED9E1BD1675B005E6209 /* GetImageCell.swift in Sources */,
+				20BFED6B1BD166A5005E6209 /* ViewController.swift in Sources */,
+				20BFED981BD1670D005E6209 /* ZuberImage.swift in Sources */,
+				20BFED9F1BD1675B005E6209 /* GetViewController.swift in Sources */,
+				20BFED9D1BD1675B005E6209 /* Constant.swift in Sources */,
+				20BFED991BD1670D005E6209 /* ZuberImageCell.swift in Sources */,
+				20BFED691BD166A5005E6209 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BFED751BD166A5005E6209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BFED7E1BD166A5005E6209 /* ZuberPhotosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BFED801BD166A5005E6209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BFED891BD166A5005E6209 /* ZuberPhotosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20BFED7B1BD166A5005E6209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20BFED641BD166A5005E6209 /* ZuberPhotos */;
+			targetProxy = 20BFED7A1BD166A5005E6209 /* PBXContainerItemProxy */;
+		};
+		20BFED861BD166A5005E6209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20BFED641BD166A5005E6209 /* ZuberPhotos */;
+			targetProxy = 20BFED851BD166A5005E6209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20BFED6C1BD166A5005E6209 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BFED6D1BD166A5005E6209 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20BFED711BD166A5005E6209 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BFED721BD166A5005E6209 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20BFED8B1BD166A5005E6209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20BFED8C1BD166A5005E6209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20BFED8E1BD166A5005E6209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZuberPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.ZuberPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20BFED8F1BD166A5005E6209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZuberPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.ZuberPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20BFED911BD166A5005E6209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZuberPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.ZuberPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZuberPhotos.app/ZuberPhotos";
+			};
+			name = Debug;
+		};
+		20BFED921BD166A5005E6209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZuberPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.ZuberPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZuberPhotos.app/ZuberPhotos";
+			};
+			name = Release;
+		};
+		20BFED941BD166A5005E6209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZuberPhotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.ZuberPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZuberPhotos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		20BFED951BD166A5005E6209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZuberPhotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.ZuberPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZuberPhotos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BFED601BD166A5005E6209 /* Build configuration list for PBXProject "ZuberPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BFED8B1BD166A5005E6209 /* Debug */,
+				20BFED8C1BD166A5005E6209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BFED8D1BD166A5005E6209 /* Build configuration list for PBXNativeTarget "ZuberPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BFED8E1BD166A5005E6209 /* Debug */,
+				20BFED8F1BD166A5005E6209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BFED901BD166A5005E6209 /* Build configuration list for PBXNativeTarget "ZuberPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BFED911BD166A5005E6209 /* Debug */,
+				20BFED921BD166A5005E6209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BFED931BD166A5005E6209 /* Build configuration list for PBXNativeTarget "ZuberPhotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BFED941BD166A5005E6209 /* Debug */,
+				20BFED951BD166A5005E6209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20BFED5D1BD166A5005E6209 /* Project object */;
+}

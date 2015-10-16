@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20BFED111BCFE67C005E6209"
-               BuildableName = "swiftPickMore.app"
-               BlueprintName = "swiftPickMore"
-               ReferencedContainer = "container:swiftPickMore.xcodeproj">
+               BlueprintIdentifier = "20BFED641BD166A5005E6209"
+               BuildableName = "ZuberPhotos.app"
+               BlueprintName = "ZuberPhotos"
+               ReferencedContainer = "container:ZuberPhotos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20BFED251BCFE67C005E6209"
-               BuildableName = "swiftPickMoreTests.xctest"
-               BlueprintName = "swiftPickMoreTests"
-               ReferencedContainer = "container:swiftPickMore.xcodeproj">
+               BlueprintIdentifier = "20BFED781BD166A5005E6209"
+               BuildableName = "ZuberPhotosTests.xctest"
+               BlueprintName = "ZuberPhotosTests"
+               ReferencedContainer = "container:ZuberPhotos.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20BFED301BCFE67C005E6209"
-               BuildableName = "swiftPickMoreUITests.xctest"
-               BlueprintName = "swiftPickMoreUITests"
-               ReferencedContainer = "container:swiftPickMore.xcodeproj">
+               BlueprintIdentifier = "20BFED831BD166A5005E6209"
+               BuildableName = "ZuberPhotosUITests.xctest"
+               BlueprintName = "ZuberPhotosUITests"
+               ReferencedContainer = "container:ZuberPhotos.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20BFED111BCFE67C005E6209"
-            BuildableName = "swiftPickMore.app"
-            BlueprintName = "swiftPickMore"
-            ReferencedContainer = "container:swiftPickMore.xcodeproj">
+            BlueprintIdentifier = "20BFED641BD166A5005E6209"
+            BuildableName = "ZuberPhotos.app"
+            BlueprintName = "ZuberPhotos"
+            ReferencedContainer = "container:ZuberPhotos.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,33 +75,13 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20BFED111BCFE67C005E6209"
-            BuildableName = "swiftPickMore.app"
-            BlueprintName = "swiftPickMore"
-            ReferencedContainer = "container:swiftPickMore.xcodeproj">
+            BlueprintIdentifier = "20BFED641BD166A5005E6209"
+            BuildableName = "ZuberPhotos.app"
+            BlueprintName = "ZuberPhotos"
+            ReferencedContainer = "container:ZuberPhotos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
-         <AdditionalOption
-            key = "MallocStackLogging"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "DYLD_INSERT_LIBRARIES"
-            value = "/usr/lib/libgmalloc.dylib"
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "NSZombieEnabled"
-            value = "YES"
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "NSDOLoggingEnabled"
-            value = "YES"
-            isEnabled = "YES">
-         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -114,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20BFED111BCFE67C005E6209"
-            BuildableName = "swiftPickMore.app"
-            BlueprintName = "swiftPickMore"
-            ReferencedContainer = "container:swiftPickMore.xcodeproj">
+            BlueprintIdentifier = "20BFED641BD166A5005E6209"
+            BuildableName = "ZuberPhotos.app"
+            BlueprintName = "ZuberPhotos"
+            ReferencedContainer = "container:ZuberPhotos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
